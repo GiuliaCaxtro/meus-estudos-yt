@@ -1,0 +1,6 @@
+n = input('digite algo:')
+print('é um numero?',n.isnumeric())
+print('É uma letra?',n.isalpha())
+print('É um numero e uma letra?',n.isalnum())
+print('É um numero decimal?',n.isdecimal())
+print('qual o tipo primitivo?',type(n))
