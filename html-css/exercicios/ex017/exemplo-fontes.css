@@ -1,0 +1,37 @@
+@charset "UTF-8"
+*{
+    font-size: 1cm ;
+    @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,1,100;1,1,200;1,1,300;1,1,400;1,1,500;1,1,600;1,1,700;1,1,800;1,1,900&display=swap');
+}
+body{ 
+
+    font-family: Arial, Helvetica, sans-serif;
+    /*MEDIDIDAS ABSOLUTAS
+    CM,MM,IN,PX,PT,PC
+    MEDIDAS RELATIVAS
+    em, ex, rem, vw, vh
+    */
+    font-size: 16px; /*TAMANHO*/
+    font-weight: 100;/*PESO*/
+    font-style: initial;/*ESTILO*/
+    text-decoration: #;/*SUBLINHADO NO TEXTO*/
+    /*weight(peso), width (largura), height(altura)'
+    
+    tipos de peso: lighter, normal, bold bolder*/
+    /*shorthand font
+    
+    font-style,font-weigth,font-size,font-familly
+    exemplo abaixo:
+    */
+    /*font:italic bolder 16px 'Work Sans, sans-serif'; (posso por todas as info na mesma linha*/
+}
+h1{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif, Times, serif;
+}
+h2{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    
+}
+P{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, 'Arial Narrow', Arial, sans-serif;
+}
