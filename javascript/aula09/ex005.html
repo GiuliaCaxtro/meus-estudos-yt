@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos DOM</title>
+    <style>
+        body {
+            background-color: rgb(14, 63, 70);
+            color: white;
+            font: normal 15pt arial;
+        }
+        h1 {
+            text-align: center;
+        }
+        p {
+            text-indent: 30px;
+        }
+        div {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(31, 31, 218);
+            border-radius: 7px;
+            width: auto 10px;
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste DOM</h1>
+    <p>Aqui vai o resultado!</p>
+    <p>Aprendendo <strong>DOM</strong> em JavaScript!</p>
+    <div id="msg">Clique em mim!</div>
+
+    <script>
+        var corpo = window.document.bodyvar 
+        p1 = window.document.getElementsByTagName('p')[1]
+        
+        //--------------------------------------------------
+        //var div = window.document.getElementById ('msg') //PRA ID
+        // var div = window.document.getElementsByName('msg')[0] -- PRA NOME
+        //var div = window.document.getElementsByClassName ('msg') --PRA CLASS
+
+        //--------------------------------------------------
+        var div = window.document.querySelector('div#msg') // # pra ID e . pra class .. ex: ('div.msg')
+        div.style.color = "yellow"
+        
+        //--------------------------------------------------
+        div.style.background = "green"
+        div.innerText = 'CLICK'
+
+        //pra marca//
+        //window.document.write(p1.innerText)
+        //p1.style.color = "blue"
+        //corpo.style.background = 'black'
+        //window.document.write(p1.innerHTML)
+        //window.alert(p1.innerText)  
+
+    </script>
+</body>
+</html>
