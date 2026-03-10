@@ -27,7 +27,8 @@ body {
     font-family: var(--fonte2);
     text-align: center;
     padding-top: 50px;
-    font-size: 5em;
+    font-size: 9vw;
+    display: block;
 }
 .autor {
     text-align: center;
