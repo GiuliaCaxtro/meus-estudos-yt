@@ -1,0 +1,103 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2: 'Passion One', cursive;
+    --fonte3: 'Sriracha', cursive;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: rgb(245, 238, 238);
+}
+/*
+------------- cabeçalho -------------------
+*/
+#cabecalho {
+    background-color: black;
+    color: white;
+}
+.titulo {
+    font-family: var(--fonte2);
+    text-align: center;
+    padding-top: 50px;
+    font-size: 5em;
+}
+.autor {
+    text-align: center;
+    font-family: var(--fonte1);
+    padding-bottom: 50px;
+
+    a { 
+      text-decoration: none;
+      color: aliceblue;
+      font-weight: 600;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+}
+
+/*
+------------- conteúdo -------------------
+*/
+section {
+    padding-left:40px;
+    padding-top: 96px;
+    padding-bottom: 96px;
+    font-family: var(--fonte3), Helvetica, sans-serif;
+    font-size: 3.5vw;
+}
+    /*
+    ---------------imagens-----------------
+    */
+.img-joaninha {
+    background-image: url(../imagens/background001.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+        p {
+            color: white;
+            display: inline-block;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.438);
+            text-shadow: 1px 1px 0px black;
+            
+        }
+ }
+.img-carta {
+    background-image: url(../imagens/background002.jpg);
+    background-position: right center;
+    background-attachment: fixed;
+    background-size: cover;
+    p {
+            color: white;
+            display: inline-block;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.438);
+            text-shadow: 1px 1px 0px black;
+            
+        }
+}
+/*
+--------------------------------
+*/
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 18px;
+}
+/*
+--------------------------------
+*/
