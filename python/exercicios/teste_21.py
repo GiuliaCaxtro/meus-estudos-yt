@@ -5,7 +5,7 @@ import time
 pygame.init()
 pygame.mixer.init()
 
-pygame.mixer.music.load('speaking.mp3')
+pygame.mixer.music.load(r"C:\Users\Giulia\Documents\Aulas do guanabara\estudos\python\exercicios\midia\speaking.mp3")
 pygame.mixer.music.play()
 
 while pygame.mixer.music.get_busy():
