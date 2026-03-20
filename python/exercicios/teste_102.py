@@ -1,6 +1,8 @@
-norte = True
-sul = False
-leste = False
-oeste = False
-if (norte == True or sul == True or leste == True or oeste == True ):
-    print('Voçê escapou!')
+tabuada = 1
+while tabuada <=10:
+    print(f'tabuada do {tabuada}')
+    i = 1
+    while i <= 10:
+        print(f'{tabuada} x {i} = {tabuada * i}')
+        i +=1
+    tabuada+=1
