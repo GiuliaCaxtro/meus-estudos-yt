@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+
+    font: normal 16px arial;
+    background-color: #0a3329;
+}
+header {
+      text-align: center;
+      padding: 20px;
+      color: white;
+}
+section {
+    margin: auto;
+    text-align: left;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    padding: 25px;
+    border-radius: 20px;
+}
+#ano {
+    padding: 3px 10px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+
