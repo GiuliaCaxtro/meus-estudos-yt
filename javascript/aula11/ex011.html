@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <h1>Nacionalidade</h1>
+    <p>Qual é a seu país de origem?</p>
+    <input type="text" name="txtpais" id="txtpais">
+    <input type="button" value="verificar" onclick="nacionalidade()">
+    <div id="resposta">
+
+    </div>
+
+
+    <script>
+        function nacionalidade () {
+            let txtpais = document.querySelector('input#txtpais')
+            let resposta = document.querySelector('div#resposta')
+            let pais = txtpais.value.toLowerCase()
+
+            if (pais == `brasil` || pais == `brasileiro` || pais == `brasileira`) {
+            resposta.innerHTML = `<p>Você é <strong>Brasileiro(a)!</strong>.</p>`
+            }
+            else
+            resposta.innerHTML = `<p>Você é <strong>Estrangeiro!</strong>.</p>`
+            
+        }
+    </script>
+</body>
+</html>
