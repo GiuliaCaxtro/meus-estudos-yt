@@ -14,19 +14,40 @@ body {
 }
 header {
     background-color: #619393;
-    color: white;
+    color: rgb(15, 15, 15);
     padding: 10px;
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 header h1 {
     border: 1px solid rgb(255, 255, 255);
     font-size: 1.5em;
+    flex: 0 0 200px;
 }
 header nav {
     border: 1px solid rgb(255, 255, 255);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
 }
-a {
-    color: white;
+header nav a {
+    background-color: rgb(255, 255, 255);
+    color: #619393;
     text-decoration: none;
+    padding: 6px;
+    margin: 0 5px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+header nav a:hover {
+    background-color: #2b3d3d;
+    color: rgb(255, 255, 255);
+    transition: background-color 0.5s, color 0.3s;
+
 }
 main {
     background-color: white;
