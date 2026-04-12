@@ -16,6 +16,7 @@ header {
     background-color: #619393;
     color: rgb(15, 15, 15);
     padding: 10px;
+    height: 100px;
 
     display: flex;
     flex-flow: row wrap;
