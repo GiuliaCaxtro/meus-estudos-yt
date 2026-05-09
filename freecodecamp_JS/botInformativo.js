@@ -1,3 +1,4 @@
+// Bot informativo sobre uma linguagem de programação
 console.log("Olá! Sou seu guia de curiosidades sobre programação!");
 
 let botName = "Caxtro";
