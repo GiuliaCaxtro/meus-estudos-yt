@@ -13,12 +13,12 @@ let codingFact = "Um fato divertido sobre "+favoriteLanguage+ " é que ele foi c
 
 console.log(codingFact);
 
-codingFact = 'Um segundo fato curioso é que '+favoriteLanguage+ " consegue rodar até fora do navegador, graças ao Node.js!";
+codingFact = "Um segundo fato curioso é que "+favoriteLanguage+ " consegue rodar até fora do navegador, graças ao Node.js!";
 
 console.log(codingFact);
 
 
-codingFact = "E o famoso error 404 - game do Google Chrome, o dinossauro sem internet - foi feito com "+favoriteLanguage+"!";
+codingFact = "E o famoso \"error 404\" - game do Google Chrome, o dinossauro sem internet - foi feito com "+favoriteLanguage+"!";
 console.log(codingFact);
 
 console.log("Foi divertido compartilhar essas curiosidades com você. Até mais! - "+botName+" do " +botLocation+".");
